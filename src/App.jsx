@@ -4,7 +4,7 @@ import AllRoutes from "./Routes/AllRoutes";
 
 function App() {
   return (
-    <div className="dark:bg-slate-950 min-h-screen  "  >
+    <div className="dark:bg-gradient-to-b from-slate-500 to-slate-900 min-h-screen  "  >
       <AllRoutes/>
     </div>
   );

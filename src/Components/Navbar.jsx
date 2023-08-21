@@ -32,7 +32,7 @@ const Navbar = () => {
       <div className="h-14 flex justify-center items-center font-bold text-3xl min-[320px]:text-center max-[600px]:bg-sky-300 bg-yellow-600 dark:text-slate-100 dark:bg-slate-700 " >
         Tailwind-css basic projects
       </div>
-      <div className=" h-14 p-2 flex justify-around relative items-center border-1 bg-slate-800 text-slate-50">
+      <div className=" h-14 p-2 dark:shadow-lg dark:shadow-slate-500 flex justify-around relative items-center border-1 bg-slate-800 text-slate-50">
         <h3 className={classes} onClick={() => navigate("/project1")}>
           P-1
         </h3>
