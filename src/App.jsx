@@ -4,7 +4,7 @@ import AllRoutes from "./Routes/AllRoutes";
 
 function App() {
   return (
-    <div>
+    <div className="dark:bg-slate-950 min-h-screen  "  >
       <AllRoutes/>
     </div>
   );
